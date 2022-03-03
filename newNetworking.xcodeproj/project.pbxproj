@@ -17,6 +17,7 @@
 		AD3FF96427D0786800130161 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AD3FF96327D0786800130161 /* Alamofire */; };
 		AD3FF96727D0789900130161 /* AFHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3FF96627D0789900130161 /* AFHttp.swift */; };
 		AD3FF96A27D078AB00130161 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3FF96927D078AB00130161 /* Post.swift */; };
+		AD3FF96D27D0872E00130161 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3FF96C27D0872E00130161 /* PostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		AD3FF96127D077BE00130161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AD3FF96627D0789900130161 /* AFHttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFHttp.swift; sourceTree = "<group>"; };
 		AD3FF96927D078AB00130161 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		AD3FF96C27D0872E00130161 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		AD3FF93627D0779D00130161 /* newNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				AD3FF96B27D0871100130161 /* viewmodel */,
 				AD3FF96827D078A200130161 /* models */,
 				AD3FF96527D0788400130161 /* network */,
 				AD3FF96127D077BE00130161 /* Info.plist */,
@@ -151,6 +154,14 @@
 				AD3FF96927D078AB00130161 /* Post.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		AD3FF96B27D0871100130161 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				AD3FF96C27D0872E00130161 /* PostViewModel.swift */,
+			);
+			path = viewmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD3FF96D27D0872E00130161 /* PostViewModel.swift in Sources */,
 				AD3FF96727D0789900130161 /* AFHttp.swift in Sources */,
 				AD3FF93A27D0779D00130161 /* ContentView.swift in Sources */,
 				AD3FF93827D0779D00130161 /* newNetworkingApp.swift in Sources */,
